@@ -11,27 +11,14 @@
       "name": "Base",
       "description": "Base font stack for body text.",
       "value": [
-        "Figtree",
-        "Optima",
-        "Candara",
-        "Noto Sans",
-        "source-sans-pro",
-        "sans-serif"
-      ]
+        'Inter Tight']
     },
     {
       "name": "Mono",
       "description": "Monospace font for code and preformatted text.",
       "value": [
-        "RobotoMono",
-        "ui-monospace",
-        "Cascadia Code",
-        "Source Code Pro",
-        "Menlo",
-        "Consolas",
-        "DejaVu Sans Mono",
-        "monospace"
+        'IBM Plex Mono'
       ]
-    }
+    },
   ]
 }
