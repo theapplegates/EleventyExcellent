@@ -4,7 +4,7 @@ permalink: /search/index.html
 description: 'Search Me'
 layout: page
 ---
-<script type="module" src="/asstes/scripts/pagefind-search.js"></script>
+<script type="module" src="/assets/scripts/pagefind-search.js"></script>
 
 <pagefind-search>
 	<!-- Fallback to DuckDuckGo search -->
