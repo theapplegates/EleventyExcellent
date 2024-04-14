@@ -33,11 +33,11 @@ h3 {
 }
 
 h1 {
-  font-size: var(--size-step-6);
+  font-size: var(--size-step-2);
 }
 
 h2 {
-  font-size: var(STEP 0);
+  font-size: var(--size-step-2);
 }
 
 h3 {
