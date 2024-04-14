@@ -35,7 +35,7 @@ export const imageShortcode = async (
   loading = 'lazy',
   className,
   sizes = '90vw',
-  widths = [440, 650, 960, 1200],
+  widths = [110, 220,440, 880, 1024, 1248],
   formats = ['avif', 'webp', 'jpeg']
 ) => {
   const metadata = await Image(src, {

@@ -46,10 +46,10 @@ export const markdownLib = markdownIt({
   .use(markdownItEmoji)
   .use(markdownItEleventyImg, {
     imgOptions: {
-      widths: [440, 880, 1024],
+      widths: [110, 220,440, 880, 1024, 1248],
       urlPath: '/assets/images/',
       outputDir: './dist/assets/images/',
-      formats: ['webp', 'jpeg']
+      formats: ['avif','webp', 'jpeg']
     },
     globalAttributes: {
       loading: 'lazy',
