@@ -7,6 +7,8 @@ tags:
   - feature
 ---
 
+{% image "./src/assets/images/gallery/israel-ferrera-ewxZ27OmFrs-unsplash.jpg", "Close-up of a delicate white flower with a yellow center, surrounded by green leaves", "Jasmine nightshades blooming in July" %}
+
 When you share your blog posts, a thumbnail image may appear - the image we define in our meta data as an Open Graph Image (`og:image`).
 
 This starter generates these images for your blog posts automatically. They take in the title and date of the post.
