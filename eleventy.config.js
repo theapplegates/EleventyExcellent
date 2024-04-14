@@ -67,6 +67,22 @@ export default async function (eleventyConfig) {
   eleventyConfig.addShortcode('svg', shortcodes.svgShortcode);
   eleventyConfig.addShortcode('image', shortcodes.imageShortcode);
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
+  
+  // --------------------- Pagefind Search
+  eleventyConfig.addShortcode('pagefindSearch', () => `<script type="module" src="/src/assets/scripts/pagefind-search.js"></script>
+
+<pagefind-search>
+  <!-- Fallback to DuckDuckGo search -->
+  <form action="https://duckduckgo.com/" method="get" style="min-height: 3.2em;"><!-- min-height to reduce CLS -->
+    <label>
+      Search for:
+      <input type="search" name="q" autocomplete="off" autofocus>
+    </label>
+    <!-- Put your searchable domain here -->
+    <input type="hidden" name="sites" value="paulapplegate.com">
+    <button type="submit">Search</button>
+  </form>
+</pagefind-search>`);
 
   // --------------------- Events ---------------------
   if (process.env.ELEVENTY_RUN_MODE === 'serve') {
@@ -74,13 +90,13 @@ export default async function (eleventyConfig) {
   }
 
   // --------------------- Passthrough File Copy
-
+  
   // -- same path
   ['src/assets/fonts/', 'src/assets/images/template', 'src/assets/og-images'].forEach(
     path => eleventyConfig.addPassthroughCopy(path)
   );
 
-  // -- to root
+  // -- to root  
   eleventyConfig.addPassthroughCopy({
     'src/assets/images/favicon/*': '/'
   });
@@ -100,7 +116,7 @@ export default async function (eleventyConfig) {
 
     dir: {
       output: 'dist',
-      input: 'src',
+      input: 'src',      
       includes: '_includes',
       layouts: '_layouts'
     }
