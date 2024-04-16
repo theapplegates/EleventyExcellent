@@ -69,20 +69,20 @@ export default async function (eleventyConfig) {
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
   
   // --------------------- Pagefind Search
-  eleventyConfig.addShortcode('pagefindSearch', () => `<script type="module" src="/src/assets/scripts/pagefind-search.js"></script>
+//  eleventyConfig.addShortcode('pagefindSearch', () => `<script type="module" // src="/src/assets/scripts/pagefind-search.js"></script>
 
-<pagefind-search>
+// <pagefind-search>
   <!-- Fallback to DuckDuckGo search -->
-  <form action="https://duckduckgo.com/" method="get" style="min-height: 3.2em;"><!-- min-height to reduce CLS -->
-    <label>
-      Search for:
-      <input type="search" name="q" autocomplete="off" autofocus>
-    </label>
+  // <form action="https://duckduckgo.com/" method="get" style="min-height: 3.2em;"><!-- min-height to reduce CLS -->
+    // <label>
+      // Search for:
+      //<input type="search" name="q" autocomplete="off" autofocus>
+    // </label>
     <!-- Put your searchable domain here -->
-    <input type="hidden" name="sites" value="paulapplegate.com">
-    <button type="submit">Search</button>
-  </form>
-</pagefind-search>`);
+    // <input type="hidden" name="sites" value="paulapplegate.com">
+   // <button type="submit">Search</button>
+  // </form>
+// </pagefind-search>`);
 
   // --------------------- Events ---------------------
   if (process.env.ELEVENTY_RUN_MODE === 'serve') {
