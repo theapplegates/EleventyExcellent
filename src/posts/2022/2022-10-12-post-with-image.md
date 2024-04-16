@@ -73,8 +73,9 @@ Thanks to the [markdown-it-eleventy-img](https://github.com/solution-loisir/mark
 ![alt text](/path/to/image)
 ![Close-up with unfocused background of a vibrant large blue butterfly gracefully perched on a delicate flower amidst lush green gras](/assets/images/gallery/asturias-4.jpg)
 ```
-
+<section class="post-teaser">
 ![Close-up with unfocused background of a vibrant large blue butterfly gracefully perched on a delicate flower amidst lush green gras](/assets/images/gallery/asturias-4.jpg)
+</section >
 
 ### Figure element with caption
 
