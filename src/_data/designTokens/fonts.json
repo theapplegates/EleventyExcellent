@@ -10,12 +10,12 @@
 {
 "name": "Base",
 "description": "Base font stack for body text.",
-"value": ["Inter Tight"]
+"value": ["GeistVF"]
 },
 {
 "name": "Mono",
 "description": "Monospace font for code and preformatted text.",
-"value": ["IBM Plex Mono"]
+"value": ["GeistMonoVF"]
 }
 ]
 }
