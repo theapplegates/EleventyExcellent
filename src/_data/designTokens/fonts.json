@@ -10,7 +10,7 @@
 {
 "name": "Base",
 "description": "Base font stack for body text.",
-"value": ["shantell-sans", "GeistVF"]
+"value": ["shantell-sans"]
 },
 {
 "name": "Mono",
