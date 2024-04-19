@@ -16,7 +16,7 @@ custom-card h2,
 custom-card h3 {
   grid-row: headline;
   font-family: var(--font-base);
-  font-size: var(--size-step-0);
+  font-size: var(--size-step-min-1);
 }
 
 custom-card h2 a,
