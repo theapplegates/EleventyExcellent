@@ -1,37 +1,9 @@
-/* inter-tight-regular - latin */
+/* roboto-flex-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'GeistVF';
+  font-family: 'Roboto Flex';
   font-style: normal;
   font-weight: 400;
-  src: url('/src/assets/fonts/GeistVF/GeistVF.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/src/assets/fonts/roboto-flex/roboto-flex-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'GeistMonoVF';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/src/assets/fonts/GeistMonoVF/GeistMonoVF.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'red-hat-display';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/src/assets/fonts/redhat/red-hat-display-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Shantell Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/src/assets/fonts/shantell-sans/ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.ttf') format('ttf'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-/* shantell-sans-italic - latin */
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Shantell Sans';
-  font-style: italic;
-  font-weight: 400;
-  src: url('/src/assets/fonts/shantell-sans/ShantellSans-Italic-VariableFont_BNCE,INFM,SPAC,wght.ttf') format('ttf'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
+

@@ -5,17 +5,17 @@
 {
 "name": "Display",
 "description": "Display font stack for headings and large text.",
-"value": ["Red Hat Display"]
+"value": ["Roboto Flex"]
 },
 {
 "name": "Base",
 "description": "Base font stack for body text.",
-"value": ["shantell-sans"]
+"value": ["Roboto Flex"]
 },
 {
 "name": "Mono",
 "description": "Monospace font for code and preformatted text.",
-"value": ["GeistMonoVF"]
+"value": ["ibm-plex-mono"]
 }
 ]
 }
