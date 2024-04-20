@@ -7,6 +7,9 @@ image: './src/assets/images/gallery/asturias-1.jpg'
 alt: 'A picturesque valley showcasing majestic mountains and lush forests, creating a serene and captivating landscape'
 credit: Lene took this photo.
 ---
+{% image "./src/assets/images/gallery/kellen-riggin-GoldenGate.jpg", "Golden Gate Bridge", "The Golden State Bridge, San Francisco" %}
+
+
 
 This starter uses Eleventy's build-time image transformations.
 
